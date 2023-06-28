@@ -17,10 +17,10 @@
                 <a href="https://sfpagalan.github.io/reading-notes/">HOME</a>
             </li>
             <li>
-                <a href="file:///Users/ryomazen/codefellows/projects/reading-notes/102/demo.html">GitHub</a>
+                <a href="https://github.com/sfpagalan">MY GitHub</a>
             </li>
             <li>
-                <a href="file:///Users/ryomazen/codefellows/projects/reading-notes/102/index.html">LINK</a>
+                <a href="https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats">CAT FUN FACTS</a>
             </li>
         </nav>
 </header>
@@ -29,17 +29,17 @@
     <h3>MIA</h3>
     <figure>
         <img src="mia.jpg">
-        <figcaption>catcatcatcatca</figcaption>
+        <figcaption>MIA was only about 6 months old when I found her outside the apartment. 2 months after I took her in, I found out she was pregnant!</figcaption>
     </figure>
     <h3>SACHI</h3>
     <figure>
         <img src="sachi.jpg">
-        <figcaption>dkdskds</figcaption>
+        <figcaption>Sachi is Mia's first litter.</figcaption>
     </figure>
     <h3>SASHA</a>
     <figure>
         <img src="sasha.jpeg">
-        <figcaption>dfdsfdf</figcaption>
+        <figcaption>Sasha is Mia's last litter.</figcaption>
     </figure>
 </main>
 </body>
