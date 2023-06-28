@@ -1,17 +1,29 @@
 body {
-  background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm336-jj-012_1_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=bce238c05f7b544fcedbb80185ff5a80);
-  background-size: cover;
-  background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   color: whitesmoke;
-  font-family: fantasy;
+  font-family: cursive;
 }
 
 header {
+  background-image: url(https://marketplace.canva.com/EAFhwfMq3ds/1/0/1600w/canva-colorful-cute-cats-illustration-desktop-wallpaper-KBBZLdpjLcM.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+  background-blend-mode: screen;
   width: 100%;
   margin: auto;
   text-align: center;
+}
+
+h1 {
+  color: whitesmoke;
+  display: inline-block;
+  border: #4e3821;
+  border-radius: 30px;
+  margin: auto;
+  padding: 5px;
+  background-color: #4e3821;
+
 }
 
 header h1,nav {
@@ -33,6 +45,7 @@ nav {
 
 li a {
   color: #f1f1f1;
+  text-decoration: none;
 }
 
 main {
@@ -46,6 +59,7 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   margin-left: 150px;
+  float: ;
 }
 
 .pic1 {
@@ -64,6 +78,16 @@ main {
   margin: 0px 10px;
   width: 400px;
   word-wrap: break-word;
+}
+
+p {
+  text-align: center;
+  display: inline-block;
+  border: #4e3821;
+  background-color: #4e3821;
+  border-radius: 30px;
+  padding: 10px;
+  width: 350px;
 }
 
 h1 {
