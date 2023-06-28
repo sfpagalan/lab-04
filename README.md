@@ -1,5 +1,3 @@
-# lab-04-mockup
-HTML mockup
 
 <!DOCTYPE html>
 <html>
@@ -10,20 +8,7 @@ HTML mockup
   <title>My Cats</title>
 </head>
 
-<style>
-    body {
-    height: 100%;
-    width: 100%;
-    background-color: #220404;
-    color: #6e0d0d;
-  }  
-    h1 {
-        color: aliceblue;
-    }
-
-</style>
-
-<body> 
+<body>
 
 <header>
     <h1>My Cats</h1>
@@ -38,22 +23,22 @@ HTML mockup
                 <a href="file:///Users/ryomazen/codefellows/projects/reading-notes/102/index.html">LINK</a>
             </li>
         </nav>
- </header>
+</header>
 
  <main>
     <h3>MIA</h3>
     <figure>
-        <img>
-            <figcaption>catcatcatcatca</figcaption>
+        <img src="mia.jpg">
+        <figcaption>catcatcatcatca</figcaption>
     </figure>
     <h3>SACHI</h3>
-    <figure>    
-        <img>
-            <figcaption>dkdskds</figcaption>
-    </figure>
-    <h3>Sasha</a>
     <figure>
-        <img>
+        <img src="sachi.jpg">
+        <figcaption>dkdskds</figcaption>
+    </figure>
+    <h3>SASHA</a>
+    <figure>
+        <img src="sasha.jpeg">
         <figcaption>dfdsfdf</figcaption>
     </figure>
 </main>
@@ -62,13 +47,11 @@ HTML mockup
 <footer>
 <h3>GitHub Profile</h3>
     <li>
-       <a>mine</a>
+        <a href="https://cleecoloma.github.io/Lab-Work/">Chester's GitHub</a>
     </li>
     <li>
-        <a>Chester's</a>
+        <a href="https://sfpagalan.github.io/lab-04-mockup/">Sydney's GitHub</a>
     </li>
-
 </footer>
-
 
 </html>
