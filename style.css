@@ -119,6 +119,7 @@ footer li {
 caption {
   text-align: center;
   width: 200px;
+  border-radius: 50px;
   word-wrap: break-word;
 }
 
