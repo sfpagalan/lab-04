@@ -141,3 +141,15 @@ p {
   margin-left: 50px;
 }
 
+button {
+  color: #fff;
+  background-color: #3c3c3c;
+  border: none;
+  outline-style: solid;
+  outline-color:  #676767; 
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #b9b9b9;
+}
