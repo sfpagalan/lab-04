@@ -1,25 +1,22 @@
 function warning() {
-    confirm('You sure about this?!');
-}
-
-function catBreed() {
-    let cat = prompt('Give me a cat breed');
-    while(!cat) {
-        cat = prompt('Need more CAAAAATS')
-    } 
-    alert('Yay! Welcome to my cat page!');
-    
+    alert('Welcome to my cat page!');
 }
 
 function catQuestion() {
-    let cat = prompt('DO YOU LIKE CATS Answer Y/N');  
-    
+    let cat = prompt('DO YOU LIKE CATS??! *you can only answer Y/N or y/n*');  
+    while(!cat) {
+        cat = prompt('Seriously, you gotta answer Y/N')
+    }
     if (cat === 'Y') {
         document.write ("<p>AWESOME! Then you are welcome here!</p>")
+    }if (cat === 'y') {
+        document.write ("<p>AWESOME! Then you are welcome here!</p>")
     } else if (cat === 'N') {
-        document.write ('<p>GO AWAY!</p>')
+        document.write ('<p>GO AWAY! Just kidding, I guess you can look around...</p>')
+    } else if (cat === 'n') {
+        document.write ('<p>GO AWAY! Just kidding, I guess you can look around...</p>')
     } else {
-        document.write ('<p>THAT IS UNFORTUNATE BUT I FORGIVE YOU</p>')
+        document.write ('<p>YOU WILL GET THIS MESSAGE BECAUSE YOU DID NOT ANSWER Y/N.</p>')
     }
 }
 
