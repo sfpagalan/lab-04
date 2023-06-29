@@ -82,7 +82,7 @@ main {
 
 }
 
-p {
+figcaption {
   text-align: center;
   display: inline-block;
   border: #5e5e5d;
@@ -91,6 +91,7 @@ p {
   padding: 5px;
   width: 300px;
   margin-left: 50px;
+  margin-bottom: 10px;
 }
 
 
@@ -128,3 +129,15 @@ footer {
   margin-bottom: 50px;
   background-color: #5e5e5d;
 }
+
+p {
+  text-align: center;
+  display: inline-block;
+  border: #d70101;
+  background-color: #d70101;
+  border-radius: 10px;
+  padding: 5px;
+  width: 300px;
+  margin-left: 50px;
+}
+
