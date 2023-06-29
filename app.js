@@ -5,7 +5,7 @@ function warning() {
 function catQuestion() {
     let cat = prompt('DO YOU LIKE CATS??! *you can only answer Y/N or y/n*');  
     while(!cat) {
-        cat = prompt('Seriously, you gotta answer Y/N')
+        cat = prompt('Seriously, you gotta answer Y/N or y/n')
     }
     if (cat === 'Y') {
         document.write ("<p>AWESOME! Then you are welcome here!</p>")
