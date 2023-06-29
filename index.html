@@ -9,15 +9,12 @@
 </head>
 
 <body>
-
+    <script src="app.js"></script>
 <header>
     <h1>My Cats</h1>
         <nav>
             <li>
                 <a href="https://sfpagalan.github.io/reading-notes/">HOME</a>
-                <script>
-                    onclick=confirm('You sure about this?!');
-                </script>
             </li>
             <li>
                 <a href="https://github.com/sfpagalan">MY GitHub</a>
@@ -25,19 +22,11 @@
             <li>
                 <a href="https://www.purina.co.uk/articles/cats/behaviour/common-questions/fun-facts-about-cats">CAT FUN FACTS</a>
             </li>
-        </nav>
-           <script>
-            let cat = prompt('DO YOU LIKE CATS?');
-            
-        
-            if (cat === 'yes') {
-                document.write ("<p>AWESOME! Then you are welcome here!</p>")
-            } else if (cat === 'no') {
-                document.write ('<p>GO AWAY!</p>')
-            } else if (cat === 'maybe') {
-                document.write ('<p>THAT IS UNFORTUNATE BUT I FORGIVE YOU</p>')
-            }
-        </script>
+        </nav>                
+<script>
+    warning();
+    catQuestion();
+</script>
  <form action="https://media.glamour.com/photos/580e1fc08bd9950546d001f6/master/w_330,h_312,c_limit/giphy%20(11).gif">
         <button type="submit">Want to see a surprise?</button>
  </form>
