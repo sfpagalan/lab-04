@@ -15,8 +15,5 @@ function catQuestion() {
         document.write ('<p>GO AWAY! Just kidding, I guess you can look around...</p>')
     } else if (cat === 'n') {
         document.write ('<p>GO AWAY! Just kidding, I guess you can look around...</p>')
-    } else {
-        document.write ('<p>YOU WILL GET THIS MESSAGE BECAUSE YOU DID NOT ANSWER Y/N.</p>')
-    }
 }
 
