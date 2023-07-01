@@ -16,4 +16,4 @@ function catQuestion() {
     } else if (cat === 'n') {
         document.write ('<p>GO AWAY! Just kidding, I guess you can look around...</p>')
 }
-
+}
